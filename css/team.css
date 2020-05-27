@@ -1,0 +1,76 @@
+/*------========================================= 
+Start 
+========================================---------*/
+*
+{
+    padding: 0;
+    margin: 0;
+}
+/*--===============================
+Navigation bar
+===================================--*/
+.navbar-brand img{
+  width: 50px;
+  height: 35px;
+}
+.navbar{
+  background: skyblue;
+}
+.nav-link,
+.navbar-brand{
+  color: #fff;
+  cursor: pointer;
+}
+.nav-link{
+  margin-right: 1em !important;
+}
+.nav-link:hover{
+  color: black;
+}
+.navbar-collapse{
+  justify-content: flex-end;
+}
+#team{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+h1{
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+#team .row{
+  margin-top: 30px;
+}
+.col-md-4{
+  margin: 30px auto;
+}
+.profile{
+  padding: 70px 10px 10px;
+  background-color: #efefef;
+}
+.user{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.profile img{
+  top: -60px;
+  position: absolute;
+  left: calc(50% - 60px);
+  border: 10px solid #fff;
+}
+.profile h3{
+  font-size: 30px;
+  margin-top: 15px;
+  color: #007bff;
+}
+blockquote{
+  font-size: 17px;
+  line-height: 30px;
+}
+.profile:hover{
+  box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: 0.5s;
+}

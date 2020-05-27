@@ -1,0 +1,68 @@
+/*------========================================= 
+Start 
+========================================---------*/
+*
+{
+    padding: 0;
+    margin: 0;
+}
+/*--===============================
+Navigation bar
+===================================--*/
+.navbar-brand img{
+  width: 50px;
+  height: 35px;
+}
+.navbar{
+  background: skyblue;
+}
+.nav-link,
+.navbar-brand{
+  color: #fff;
+  cursor: pointer;
+}
+.nav-link{
+  margin-right: 1em !important;
+}
+.nav-link:hover{
+  color: black;
+}
+.navbar-collapse{
+  justify-content: flex-end;
+}
+/*=================================
+Cocoa Production Gallery
+-----------============================
+*/
+.container{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  max-width: 12000px;
+  margin: auto;
+  background-color: #f2f2f2;
+  overflow: auto;
+}
+.gallery{
+  margin: 10px;
+  border: 1px solid #fff;
+  float: left;
+  width: 390px;
+}
+.gallery img{
+  width: 100%;
+  height: auto;
+  filter: grayscale(30%);
+  transition: 1s;
+}
+.gallery img:hover{
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+.desc{
+  padding: 10px;
+  text-align: center;
+  text-decoration: underline;
+}
+.active:hover{
+  color: black;
+}

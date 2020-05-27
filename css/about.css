@@ -1,0 +1,81 @@
+/*------========================================= 
+Start 
+========================================---------*/
+*
+{
+    padding: 0;
+    margin: 0;
+}
+/*--===============================
+Navigation bar
+===================================--*/
+.navbar-brand img{
+  width: 50px;
+  height: 35px;
+}
+.navbar{
+  background: skyblue;
+}
+.nav-link,
+.navbar-brand{
+  color: #fff;
+  cursor: pointer;
+}
+.nav-link{
+  margin-right: 1em !important;
+}
+.nav-link:hover{
+  color: blue;
+}
+.navbar-collapse{
+  justify-content: flex-end;
+}
+/*--==========================
+About Us
+=============================--*/
+body{
+  background-color: #f2f2f2;
+}
+#about{
+  padding-top: 30px;
+  margin: auto;
+}
+.col-md-12 h1{
+  color: skyblue;
+  text-align: center;
+  text-decoration: underline;
+}
+.container{
+  font-size: 25px;
+}
+.about{
+  padding-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  color: #efefef;
+}
+/*--
+=========================================
+Footer
+========================================
+--*/
+#footer{
+  padding-top: 10px;
+  padding-bottom: 5px;
+  background: #333;
+  color: #fff;
+}
+p{
+  font-size: 15px;
+  padding-top: 12px;
+  text-align: center;
+}
+.container{
+  padding-bottom: 7px;
+}
+.copyright{
+  padding-top: 3px;
+}
+/*-----=================================== 
+End 
+==================================-----------*/
